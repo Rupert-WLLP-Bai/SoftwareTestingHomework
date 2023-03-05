@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cbc7433-4875-43ac-bc9a-10505708b3cf" name="变更" comment="inital commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/tongji/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/tongji/homework1/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cn/edu/tongji/homework1/TriangleTest.java" afterDir="false" />
+    <list default="true" id="6cbc7433-4875-43ac-bc9a-10505708b3cf" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/tongji/homework1/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/tongji/homework1/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/edu/tongji/homework1/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/edu/tongji/homework1/TriangleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +54,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/17621/Desktop/SoftwareTesting/SoftwareTestingHomework",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,7 +71,7 @@
       <recent name="cn.edu.tongji.homework1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TriangleTest.classify (1)">
     <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftwareTestingHomework" />
       <extension name="coverage">
@@ -91,8 +87,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TriangleTest.classify (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareTestingHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.tongji.homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.tongji.homework1" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.tongji.homework1.TriangleTest" />
+      <option name="METHOD_NAME" value="classify(int,int,int,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest.classify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareTestingHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.tongji.homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.tongji.homework1" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.tongji.homework1.TriangleTest" />
+      <option name="METHOD_NAME" value="classify(java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TriangleTest.classify (1)" />
+        <item itemvalue="JUnit.TriangleTest.classify" />
         <item itemvalue="JUnit.TriangleTest" />
       </list>
     </recent_temporary>
@@ -106,8 +136,20 @@
       <option name="presentableId" value="Default" />
       <updated>1677771804636</updated>
       <workItem from="1677771806134" duration="137000" />
-      <workItem from="1677771954679" duration="1068000" />
+      <workItem from="1677771954679" duration="1091000" />
+      <workItem from="1677991976106" duration="226000" />
+      <workItem from="1677992214387" duration="125000" />
+      <workItem from="1678000518019" duration="1169000" />
+      <workItem from="1678002978773" duration="3074000" />
     </task>
+    <task id="LOCAL-00001" summary="inital commit">
+      <created>1677773031915</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677773031915</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

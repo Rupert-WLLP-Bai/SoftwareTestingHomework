@@ -29,23 +29,31 @@ public class Triangle {
     /**
      * 判断三角形的类型
      *
-     * @return 三角形的类型，可能的值为：等边三角形、等腰三角形、直角三角形、锐角三角形、钝角三角形
+     * @return 三角形的类型，可能的值为：等边三角形、等腰直角三角形、等腰锐角三角形、等腰钝角三角形、直角三角形、锐角三角形、钝角三角形、无法构成三角形
      */
     public String classify() {
         // 首先判断三角形是否合法
         if (!isLegal()) {
-            return "非法三角形";
+            return "无法构成三角形";
         }
         if (a == b && b == c) {
             return "等边三角形";
-        } else if (a == b || b == c || a == c) {
-            return "等腰三角形";
-        } else if (a * a + b * b == c * c || a * a + c * c == b * b || b * b + c * c == a * a) {
-            return "直角三角形";
-        } else if (a * a + b * b > c * c && a * a + c * c > b * b && b * b + c * c > a * a) {
-            return "锐角三角形";
-        } else {
-            return "钝角三角形";
         }
+        if (a == b || b == c || a == c) {
+            if (a * a + b * b == c * c || a * a + c * c == b * b || b * b + c * c == a * a) {
+                return "等腰直角三角形";
+            }
+            if (a * a + b * b > c * c && a * a + c * c > b * b && b * b + c * c > a * a) {
+                return "等腰锐角三角形";
+            }
+            return "等腰钝角三角形";
+        }
+        if (a * a + b * b == c * c || a * a + c * c == b * b || b * b + c * c == a * a) {
+            return "直角三角形";
+        }
+        if (a * a + b * b > c * c && a * a + c * c > b * b && b * b + c * c > a * a) {
+            return "锐角三角形";
+        }
+        return "钝角三角形";
     }
 }
